@@ -58,9 +58,7 @@ class SinglyLinkedList {
             currNode = currNode.next;
         }
 
-        console.log('first' + displayString.length);
         displayString = displayString.substr(0,displayString.length - 2);
-        console.log('out' + displayString);
         displayString += ']';
         console.log(displayString);
     }
