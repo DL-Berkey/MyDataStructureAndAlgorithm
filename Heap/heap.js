@@ -56,27 +56,41 @@ class MaxHeap {
     
 }
 
-const heap = new MaxHeap();
-heap.push(45);
-heap.push(36);
-heap.push(54);
-heap.push(27);
-heap.push(63);
+// const heap = new MaxHeap();
+// heap.push(45);
+// heap.push(36);
+// heap.push(54);
+// heap.push(27);
+// heap.push(63);
+// console.log(heap.heap);
+
+// const array = [];
+// array.push(heap.pop());
+// array.push(heap.pop());
+// array.push(heap.pop());
+// array.push(heap.pop());
+// array.push(heap.pop());
+// console.log(array);
+
+// let a = [1,2,3];
+
+// b = a.reduce((prev, curr) => 
+// {   console.log('p' + prev);
+//     console.log('c' + curr);
+//     return prev+curr**2
+// },0);
+// console.log(b);
+
+let heap = new MaxHeap();
+heap.push(1);
+heap.push(2);
+heap.push(3);
+heap.push(4);
+heap.push(5);
+
 console.log(heap.heap);
 
-const array = [];
-array.push(heap.pop());
-array.push(heap.pop());
-array.push(heap.pop());
-array.push(heap.pop());
-array.push(heap.pop());
-console.log(array);
-
-let a = [1,2,3];
-
-b = a.reduce((prev, curr) => 
-{   console.log('p' + prev);
-    console.log('c' + curr);
-    return prev+curr**2
-},0);
-console.log(b);
+console.log(heap.pop());
+console.log(heap.heap);
+console.log(heap.pop());
+console.log(heap.heap);
